@@ -1,13 +1,15 @@
 {
-  "name": "fastcampus-site",
+  "name": "next-js",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "docker:start": "docker run -p 3000:3000 next-js",
     "lint": "next lint",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "docker": "docker build . -t next-js"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.29.0",
