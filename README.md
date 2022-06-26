@@ -20,5 +20,5 @@ $ npm run build
 $ npm run deploy
 ```
 ## TEST
-- 유닛 테스트
-- E2E 테스트
+- 유닛 테스트 : 코드 상으로 기능 점검
+- E2E 테스트 : 실제 동작을 바탕으로 기능 점검
