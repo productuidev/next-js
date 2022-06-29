@@ -1,0 +1,27 @@
+/**
+ * @jest-environment jsdom
+ */
+import React from 'react'
+import { render } from '@testing-library/react'
+import Index from '../pages/index'
+
+describe('App', () => {
+    it('메뉴가 렌더링 되어야 한다', () => {
+      const { getByRole } = render( <Index /> )
+      const menu = getByRole('navigation', {
+        name: 'fastcampus'
+      })
+
+      expect(menu).toBeInTheDocument();
+    })
+
+    // it('renders a heading', () => {
+    //     const { getByRole } = render( <Index /> )
+
+    //     const heading = getByRole('heading', {
+    //         name: /welcome to next\.js!/i,
+    //     })
+
+    //     expect(heading).toBeInTheDocument()
+    // })
+})
