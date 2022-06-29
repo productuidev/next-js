@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const Detail: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -26,4 +26,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Detail
