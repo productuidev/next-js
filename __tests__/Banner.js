@@ -8,7 +8,7 @@
  describe('App', () => {
      it('배너가 렌더링 되어야 한다', () => {
        const { getByText } = render( <Banner />)
-       const banner = getByRole('banner', {
+       const banner = getByText('Banner', {
          name: ''
        })
  

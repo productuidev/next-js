@@ -3,7 +3,7 @@
  */
  import React from 'react'
  import { render } from '@testing-library/react'
- import detail from '../pages/detail'
+ import Detail from '../pages/detail'
  
  describe('App', () => {
      it('메뉴가 렌더링 되어야 한다', () => {

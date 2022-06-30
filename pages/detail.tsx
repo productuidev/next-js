@@ -1,27 +1,20 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
+// import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
+import Menu from '../components/Menu'
+import Banner from '../components/Banner'
+import LectureList from '../components/LectureList'
+import Footer from '../components/Footer'
 
 const Detail: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Fastcampus</title>
-        <meta name="description" content="Next.js 활용한 Fastcampus Site 구현" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <nav aria-label="fastcampus">fastcampus</nav>
-
-      <div role="banner"></div>
-
-      <div title="lectureList">
-        <h1>강의목록</h1>
-      </div>
-
-      <footer className={styles.footer}>
-        footer
-      </footer>
+      <Header />
+      <Menu />
+      <Banner />
+      <LectureList />
+      <Footer />
     </div>
   )
 }

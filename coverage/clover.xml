@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656624373638" clover="3.2.0">
-  <project timestamp="1656624373638" name="All files">
-    <metrics statements="60" coveredstatements="9" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="1" elements="66" coveredelements="11" complexity="0" loc="60" ncloc="60" packages="2" files="3" classes="3"/>
+<coverage generated="1656624721733" clover="3.2.0">
+  <project timestamp="1656624721733" name="All files">
+    <metrics statements="53" coveredstatements="9" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="1" elements="59" coveredelements="11" complexity="0" loc="53" ncloc="53" packages="2" files="3" classes="3"/>
     <package name="components">
       <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <file name="Banner.tsx" path="/Users/soo-yeonjeong/Documents/productuidev/next-js/components/Banner.tsx">
@@ -18,9 +18,9 @@
       </file>
     </package>
     <package name="pages">
-      <metrics statements="51" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="44" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="detail.tsx" path="/Users/soo-yeonjeong/Documents/productuidev/next-js/pages/detail.tsx">
-        <metrics statements="29" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="22" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -43,13 +43,6 @@
         <line num="20" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
       </file>
       <file name="index.tsx" path="/Users/soo-yeonjeong/Documents/productuidev/next-js/pages/index.tsx">
         <metrics statements="22" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
