@@ -17,9 +17,7 @@ describe('App', () => {
 
     it('배너가 렌더링 되어야 한다', () => {
       const { getByRole } = render( <Index />)
-      const banner = getByRole('banner', {
-        name: ''
-      })
+      const banner = getByRole('banner')
 
       expect(banner).toBeInTheDocument();
     })

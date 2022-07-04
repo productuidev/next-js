@@ -8,9 +8,7 @@
  describe('App', () => {
      it('배너가 렌더링 되어야 한다', () => {
        const { getByText } = render( <Banner />)
-       const banner = getByText('Banner', {
-         name: ''
-       })
+       const banner = getByText('Banner')
  
        expect(banner).toBeInTheDocument();
      })
