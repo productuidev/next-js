@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656969917565" clover="3.2.0">
-  <project timestamp="1656969917565" name="All files">
+<coverage generated="1656970117108" clover="3.2.0">
+  <project timestamp="1656970117108" name="All files">
     <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1" elements="11" coveredelements="11" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
     <file name="Banner.tsx" path="/Users/soo-yeonjeong/Documents/productuidev/next-js/components/Banner.tsx">
       <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
