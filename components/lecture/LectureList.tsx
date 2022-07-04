@@ -1,8 +1,11 @@
 import React from "react";
+import LectureItem from './LectureItem';
 
 const LectureList = (): JSX.Element => {
   return (
-    <div title="lectureList"></div>
+    <div>
+      <LectureItem />
+    </div>
   )
 }
 
