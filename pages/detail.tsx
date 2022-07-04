@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Menu from '../components/Menu'
 import Banner from '../components/Banner'
-import LectureList from '../components/LectureList'
+import LectureList from '../components/lecture/LectureList'
 import Footer from '../components/Footer'
 
 const Detail: NextPage = () => {
