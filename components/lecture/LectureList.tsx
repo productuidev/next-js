@@ -1,6 +1,6 @@
 import React from "react";
 import LectureItem from './LectureItem';
-import { useQuery } from 'react-query';
+// import { useQuery } from 'react-query';
 import { Lecture } from "interface/Lecture";
 import useLectures from "hooks/useLectures";
 

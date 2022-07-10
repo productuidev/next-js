@@ -65,5 +65,8 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse,
 ) {
+  if(req.query){
+    console.log(req.query)
+  }
   res.status(200).json(lecturesData)
 }
