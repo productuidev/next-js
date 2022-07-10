@@ -4,8 +4,10 @@ import { useQuery } from 'react-query'
 
 const LectureList = (): JSX.Element => {
   const { isLoading, data } = useQuery('lecture_list', () => {
-    fetch('/api/lectures').then((res) => {
+    return fetch('/api/lectures').then((res) => {
       return res.json();
+    }).then((res) => {
+      return res;
     })
   })
 
