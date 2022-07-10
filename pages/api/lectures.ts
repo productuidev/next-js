@@ -57,6 +57,21 @@ const lecturesData = {
   ]
 }
 
+const lecturesDataScience = {
+  lectureList : [
+    {
+      id: 0,
+      category: mockCategory,
+      title: '한 번에 끝내는 데이터사이언스 초격차 패키지',
+      tags: mockTags,
+      description: '데이터사이언스 전 과정 마스터',
+      thumb: '/thumb.jpg',
+      isHot: true,
+      isNew: true,
+    },
+  ]
+}
+
 type Data = {
   name: string
 }
@@ -65,8 +80,12 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse,
 ) {
-  if(req.query){
-    console.log(req.query)
+  if(req.query.categories === 'Programming'){
+    //console.log(req.query.categories)
+    res.status(200).json(lecturesData);
+  }
+  if(req.query.categories === 'DataScience'){
+    res.status(200).json(lecturesDataScience);
   }
   res.status(200).json(lecturesData)
 }
