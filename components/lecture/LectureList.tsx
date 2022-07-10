@@ -1,6 +1,7 @@
 import React from "react";
 import LectureItem from './LectureItem';
 import { useQuery } from 'react-query'
+import { Lecture } from "interface/Lecture";
 
 const LectureList = (): JSX.Element => {
   const { isLoading, data } = useQuery('lecture_list', () => {
@@ -11,11 +12,20 @@ const LectureList = (): JSX.Element => {
     })
   })
 
-  console.log(data);
+  //console.log(data);
+  if (isLoading){
+    return <div>Loading ...</div>
+  }
+
+  const lectureItems = data.lectureList.map((lecture: Lecture)=>{
+    return (
+      <LectureItem key={lecture.id} lecture={lecture} />
+    )
+  })
 
   return (
     <div>
-      <LectureItem />
+      { lectureItems }
     </div>
   )
 }
