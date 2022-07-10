@@ -12,7 +12,7 @@ const LectureList = (): JSX.Element => {
   //     return res;
   //   })
   // })
-  const { isLoading, data } = useLectures();
+  const { isLoading, data } = useLectures('Programming');
 
   //console.log(data);
   if (isLoading){
